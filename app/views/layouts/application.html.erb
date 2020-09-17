@@ -10,6 +10,18 @@
   </head>
 
   <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">La página one, two, three</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="<%= root_path %>">Pagina one</a></li>
+            <li><a href="<%= pages_two_path %>">Pagina two</a></li>
+            <li><a href="<%= pages_three_path %>">Pagina three</a></li>
+          </ul>
+        </div>
+      </nav>
     <%= yield %>
   </body>
 </html>
